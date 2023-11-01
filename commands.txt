@@ -1,0 +1,7 @@
+docker-compose run --rm app sh -c "python manage.py collectstatic"
+
+>docker-compose runs a docker conpose command
+>run will start a specific container defined in config
+> --rm removes the container when we are done using it
+>> app is the name of the service
+> sh -c passes in a shell command (to run a single command)
